@@ -30,6 +30,14 @@ Once `nvm` is installed, simply run the following:
 ```
 nvm install
 npm install
+# Build
+npm run build
+# Compile, including the tests
+npm run compile
+# Lint
+npm run lint
+# Test
+npm run test
 ``` 
 
 ### Releasing

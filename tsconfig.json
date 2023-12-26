@@ -13,6 +13,6 @@
     "incremental": true,
     "noEmit": true
   },
-  "include": [ "src/**/*", "test/**/*", "**/.eslintrc.cjs", "webpack.config.cjs" ],
+  "include": [ "src/**/*", "test/**/*", "**/.eslintrc.cjs", "**/.mocharc.cjs","webpack.config.cjs" ],
   "exclude": [ "dist/**/*" ]
 }
