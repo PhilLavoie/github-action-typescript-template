@@ -8,10 +8,47 @@ This is a template repository and several updates should be taken after using it
 - Update self-test.yml workflow
 - Update this README to reflect the new action
 
+## Inputs
+
+|     Name      | Required | Description       |
+|:-------------:|:--------:|-------------------|
+| example-input |   true   | An example input. |
+
+## Outputs
+
+|      Name      | Description        |
+|:--------------:|--------------------|
+| example-output | An example output. |
+
+## Permissions
+
+|     Scope     | Level | Reason   |
+|:-------------:|:-----:|----------|
+| pull-requests | read  | Because. |
+
 ## Usage
 
-Describe the action usage here, and provide an example invocation in a GitHub workflow.
+```yaml
+name: Template Usage
 
+on:
+  push: ~
+
+# The required permissions.
+permissions:
+  pull-requests: read
+
+# The suggested concurrency controls.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  example-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: infrastructure-blocks/github-action-typescript-template@v1
+```
 
 ## Development
 
