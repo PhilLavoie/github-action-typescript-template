@@ -1,4 +1,4 @@
-import core from "@actions/core";
+import * as core from "@actions/core";
 import { HandlerOutputs, HandlerParams } from "./types.js";
 
 export function handler(params: HandlerParams): Promise<HandlerOutputs> {
