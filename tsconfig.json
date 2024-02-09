@@ -8,11 +8,21 @@
     "strict": true,
     "target": "esnext",
     "sourceMap": true,
-    "allowJs": true,
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "incremental": true,
     "noEmit": true
   },
-  "include": [ "src/**/*", "test/**/*", "**/.eslintrc.cjs", "**/.mocharc.cjs","webpack.config.cjs" ],
-  "exclude": [ "dist/**/*" ]
+  "include": [
+    "**/*.ts",
+    "**/*.json",
+    "**/*.cjs",
+    "**/.eslintrc.cjs",
+    "**/.mocharc.cjs",
+    "webpack.config.cjs"
+  ],
+  "exclude": [
+    "dist/**/*"
+  ]
 }
