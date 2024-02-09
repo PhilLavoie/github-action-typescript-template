@@ -1,4 +1,6 @@
 {
-  "sources": ["src"],
+  "src": [
+    "src"
+  ],
   "all": true
 }

@@ -9,4 +9,4 @@ outputs:
     description: An example output
 runs:
   using: "node20"
-  main: dist/index.cjs
+  main: dist/index.js
