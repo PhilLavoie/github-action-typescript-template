@@ -1,9 +1,9 @@
 # github-action-typescript-template
-[![Build](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/build.yml/badge.svg)](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/build.yml)
-[![Git Tag Semver From Label](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/git-tag-semver-from-label.yml/badge.svg)](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/git-tag-semver-from-label.yml)
-[![Self Test](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/self-test.yml/badge.svg)](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/self-test.yml)
-[![Trigger Update From Template](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infrastructure-blocks/github-action-typescript-template/actions/workflows/trigger-update-from-template.yml)
-[![codecov](https://codecov.io/gh/infrastructure-blocks/github-action-typescript-template/graph/badge.svg?token=5T4PKYVMDH)](https://codecov.io/gh/infrastructure-blocks/github-action-typescript-template)
+[![Build](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/build.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/build.yml)
+[![Git Tag Semver From Label](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/git-tag-semver-from-label.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/git-tag-semver-from-label.yml)
+[![Self Test](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/self-test.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/self-test.yml)
+[![Trigger Update From Template](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/trigger-update-from-template.yml)
+[![codecov](https://codecov.io/gh/infra-blocks/github-action-typescript-template/graph/badge.svg?token=5T4PKYVMDH)](https://codecov.io/gh/infra-blocks/github-action-typescript-template)
 
 This is a template repository and several updates should be taken after using it as a repository generator:
 - Remove the [trigger update from template workflow](.github/workflows/trigger-update-from-template.yml)
@@ -56,7 +56,7 @@ jobs:
   example-job:
     runs-on: ubuntu-22.04
     steps:
-      - uses: infrastructure-blocks/github-action-typescript-template@v1
+      - uses: infra-blocks/github-action-typescript-template@v1
 ```
 
 ## Development
@@ -89,4 +89,4 @@ npm run test
 ### Releasing
 
 The releasing is handled at git level with semantic versioning tags. Those are automatically generated and managed
-by the [git-tag-semver-from-label-workflow](https://github.com/infrastructure-blocks/git-tag-semver-from-label-workflow).
+by the [git-tag-semver-from-label-workflow](https://github.com/infra-blocks/git-tag-semver-from-label-workflow).
