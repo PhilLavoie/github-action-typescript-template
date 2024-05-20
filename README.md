@@ -3,7 +3,7 @@
 [![Git Tag Semver From Label](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/git-tag-semver-from-label.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/git-tag-semver-from-label.yml)
 [![Self Test](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/self-test.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/self-test.yml)
 [![Trigger Update From Template](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infra-blocks/github-action-typescript-template/actions/workflows/trigger-update-from-template.yml)
-[![codecov](https://codecov.io/gh/infra-blocks/github-action-typescript-template/graph/badge.svg?token=5T4PKYVMDH)](https://codecov.io/gh/infra-blocks/github-action-typescript-template)
+[![codecov](https://codecov.io/gh/infra-blocks/github-action-typescript-template/graph/badge.svg?token=TERW0UC3F4)](https://codecov.io/gh/infra-blocks/github-action-typescript-template)
 
 This is a template repository and several updates should be taken after using it as a repository generator:
 - Remove the [trigger update from template workflow](.github/workflows/trigger-update-from-template.yml)
